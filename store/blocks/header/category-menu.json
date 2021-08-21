@@ -17,42 +17,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/promo/",
-          "noFollow": false,
-          "tagTitle": "Promoção",
-          "text": "Promoção"
-        }
-      },
-      "blocks": [
-        "vtex.menu@2.x:submenu#category-promo"
-      ]
-    },
-    "vtex.menu@2.x:submenu#category-promo": {
-      "props": {
-        "width": "auto"
-      },
-      "children": [
-        "vtex.menu@2.x:menu#category-promo"
-      ]
-    },
-    "vtex.menu@2.x:menu#category-promo": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#category-promo-Promoção"
-      ]
-    },
-  
-    "menu-item#category-promo-Promoção": {
-      "props": {
-        "id": "menu-item-category-promo-Promoção",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/promo---Promoção/Promoção/",
+          "href": "/promocao?map=category-2/",
           "noFollow": false,
           "tagTitle": "Promoção",
           "text": "Promoção"
