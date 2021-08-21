@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#deals": {
+      "children": [
+        "flex-layout.col#deals1"
+  
+      ],
+      "props": {
+        "blockClass": "deals"
+      }
+    },
+  
+    "flex-layout.col#deals1": {
+      "children": [
+        "image#deal1",
+        "rich-text#deal1"
+      ]
+    },
+    "image#deal1": {
+      "props": {
+        "src": "https://www.ccbeusorocaba.com.br/wp-content/uploads/2020/02/logo-whatsapp-png-transparente17.png",
+        "maxHeight": "50px",
+        "link": "https://api.whatsapp.com/send?phone=5562981126525&text=Ol%C3%A1%20Vtexes"
+        }
+      },
+    "rich-text#deal1": {
+      "props": {
+        "text": "Suporte WhatsApp",
+        "blockClass": "deals"
+  
+      }
+    }
+  }
+  

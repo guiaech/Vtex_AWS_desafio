@@ -1,0 +1,79 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#shelf",
+      "flex-layout.row#deals",
+      "flex-layout.row#form"
+    ]
+  },
+  "flex-layout.row#form":{
+    "props": {
+      "blockClass": "newslatter-form"
+    },
+    "children": [ "newsletter-form"]
+  },
+
+
+
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://www.ccbeusorocaba.com.br/wp-content/uploads/2020/02/logo-whatsapp-png-transparente17.png",
+          "mobileImage": "https://www.ccbeusorocaba.com.br/wp-content/uploads/2020/02/logo-whatsapp-png-transparente17.png"
+        },
+        {
+          "image": "https://www.ccbeusorocaba.com.br/wp-content/uploads/2020/02/logo-whatsapp-png-transparente17.png",
+          "mobileImage": "https://www.ccbeusorocaba.com.br/wp-content/uploads/2020/02/logo-whatsapp-png-transparente17.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-input-phone",
+      "newsletter-submit"
+    ]
+  }
+}

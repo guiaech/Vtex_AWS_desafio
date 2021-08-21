@@ -1,0 +1,168 @@
+{
+    "vtex.menu@2.x:menu#category-menu": {
+      "props": {
+        "experimentalOptimizeRendering": true
+      },
+      "children": [
+        "menu-item#category-promo",
+        "menu-item#category-home",
+        "menu-item#more"
+      ]
+    },
+    "menu-item#category-promo": {
+      "props": {
+        "id": "menu-item-category-promo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/promo/",
+          "noFollow": false,
+          "tagTitle": "Promoção",
+          "text": "Promoção"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-promo"
+      ]
+    },
+    "vtex.menu@2.x:submenu#category-promo": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-promo"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-promo": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#category-promo-Promoção"
+      ]
+    },
+  
+    "menu-item#category-promo-Promoção": {
+      "props": {
+        "id": "menu-item-category-promo-Promoção",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/promo---Promoção/Promoção/",
+          "noFollow": false,
+          "tagTitle": "Promoção",
+          "text": "Promoção"
+        }
+      }
+    },
+    "menu-item#category-home": {
+      "props": {
+        "id": "menu-item-category-home",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/kit-upmedal/corinthians/",
+          "noFollow": false,
+          "tagTitle": "Corinthians",
+          "text": "Corinthians"
+        }
+      }
+    },
+    "menu-item#more": {
+      "props": {
+        "id": "menu-item-custom-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "More",
+          "text": "More"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#more"
+      ]
+    },
+    "vtex.menu@2.x:submenu#more": {
+      "props": {
+        "width": "100%"
+      },
+      "children": [
+        "flex-layout.row#menu-more"
+      ]
+    },
+    "flex-layout.row#menu-more": {
+      "children": [
+        "flex-layout.col#menu-more-1"
+      ]
+    },
+    "flex-layout.col#menu-more-1": {
+      "children": [
+        "vtex.menu@2.x:menu#more"
+      ]
+    },
+    "vtex.menu@2.x:menu#more": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#about-us",
+        "menu-item#faq"
+      ]
+    },
+    "menu-item#about-us": {
+      "props": {
+        "id": "menu-item-about-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/about-us",
+          "noFollow": true,
+          "tagTitle": "About us",
+          "text": "About us"
+        }
+      }
+    },
+    "menu-item#faq": {
+      "props": {
+        "id": "menu-item-faq",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/faq",
+          "noFollow": true,
+          "tagTitle": "FAQ",
+          "text": "FAQ"
+        }
+      }
+    },
+    "menu-item#contact-us": {
+      "props": {
+        "id": "menu-item-contact-us",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/contact-us",
+          "noFollow": true,
+          "tagTitle": "Contact Us",
+          "text": "Contact Us"
+        }
+      }
+    }
+  }
+  
