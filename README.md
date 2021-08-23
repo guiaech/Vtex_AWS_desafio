@@ -3,4 +3,4 @@
 
 ## Link do app criado para integração do componente React com a AWS [https://github.com/guiaech/store-block-template]
 
-![GIF](https://gifs.com/gif/vtexx-mqYEKO)
+![GIF](https://j.gifs.com/mqYEKO.gif)
