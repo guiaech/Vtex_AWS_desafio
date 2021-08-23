@@ -61,7 +61,8 @@
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
-    "vtex.store-newsletter": "1.x"
+    "vtex.store-newsletter": "1.x",
+    "hiringcoders2021.formguiaech": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
