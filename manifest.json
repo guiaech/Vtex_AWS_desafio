@@ -1,5 +1,5 @@
 {
-  "vendor": "hiringcoders2021",
+  "vendor": "hiringcoders202109",
   "name": "desafio-guiaech",
   "version": "0.1.1",
   "builders": {
@@ -62,7 +62,7 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
     "vtex.store-newsletter": "1.x",
-    "hiringcoders2021.formguiaech": "0.x"
+    "hiringcoders202109.formguiaech-api": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
